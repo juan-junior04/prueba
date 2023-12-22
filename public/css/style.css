@@ -1,0 +1,27 @@
+/* public/css/style.css */
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boder-table{
+padding: 40px;
+
+}
+.styled-table {
+    width:500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
